@@ -1,0 +1,28 @@
+{
+  "name": "freeplay-demo",
+  "version": "1.0.0",
+  "description": "Demo of creating a freeplay client",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "run:script": "node --env-file=.env ./dist/app",
+    "start": "npm run build && npm run run:script"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmedina-loom/freeplay-demo.git"
+  },
+  "author": "jose.medina@loom.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmedina-loom/freeplay-demo/issues"
+  },
+  "homepage": "https://github.com/jmedina-loom/freeplay-demo#readme",
+  "dependencies": {
+    "freeplay": "^0.2.36",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17"
+  }
+}
